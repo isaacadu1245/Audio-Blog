@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOWNLOAD</title>
+    </head>
+    <body>
+	<h1 style="color:Black;"DOWNLOAD</h1>
+        <audio id="audioPlayer" controls>
+        <source class="songQueue" id="1" src="https://music.audiomack.com/streaming/adukhay/abrofo-nkoaa-no-more-lies-1__1757964285.m4a?Expires=1759820114&Signature=KrSD55KuiH-ogmysKxy7~T3LiDxVt4yhbgARHfiUj9LDMWk8sZPV0htE2gaIK--q2iqDcQCm4hsC7rHQKNm90Db8trOefVo~p8cNIf-~xIzEvwWgrtcNn6l6qG4SLJdUYLEqmgpBuRefspVJ7~9tZbHotmwl3oM7Sb1a2mVTWNI_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA">
+       
+        </audio>
+		
+			</ul>
+	
+        <script>
+            function next(n){
+				var Player=document.getElementById("audioPlayer");
+				var id=document.getElementById(n);
+				console.log();
+				Player.src=id.src;
+				Player.load()
+				Player.play();
+					
+            }
+            
+        </script>
+    </body>
+</html>
